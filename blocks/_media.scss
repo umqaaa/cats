@@ -1,0 +1,220 @@
+
+@media screen and (max-width: 1200px) {
+    .wrap {
+        width: 1040px;
+    }
+    .header__telephone {
+        margin-left: -300px;
+    }
+    .gallery, .results-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    input.footer__email, input.footer__btn {
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .wrap {
+        width: 950px;
+    }
+    input.footer__email, input.footer__btn {
+        padding:  20px;
+
+    }
+}
+@media screen and (max-width: 991px) {
+    .wrap {
+        width: 780px;
+    }
+    .header__telephone {
+        margin-left: -400px;
+    }
+    div.header-list {
+        margin-left: -50px;
+    }
+    input.footer__email, input.footer__btn {
+        padding:  15px 10px;
+    }
+    p.footer__subtitle {
+        font-size: 25px;
+        width: 240px;
+    }
+    p.footer__title, p.header__text {
+        font-size: 30px;
+    }
+    .gallery, .results-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    div.card {
+        max-width: 360px;
+    }
+    img.card__img__cat {
+        width: 360px;
+        height: 260px;
+    }
+    button.show__btn {
+       padding: 20px 30px;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .wrap {
+        width: 570px;
+    }
+    a.header__telephone {
+        font-size: 15px;
+        span {
+            font-size: 13px;
+        }
+    }
+    a.header-list__link {
+        font-size: 13px;
+    }
+    img.header__logo {
+        width: 58px;
+        height: 35px;
+    }
+    ul.header-list__item {
+        width: 70px;
+    }
+    p.footer__title, p.header__text, p.footer__subtitle {
+        font-size: 15px;
+    }
+    div.card {
+        max-width: 260px;
+    }
+    img.card__img__cat {
+        width: 260px;
+        height: 160px;
+    }
+    img.card__img__sale, img.card__like  {
+        width: 50px;
+        height: 30px;
+    }
+    button.card__img__like {
+        margin-left: -80px;
+    }
+    p.card__title {
+        font-size: 18px;
+    }
+    div.card__flex {
+        width: 180px;
+        margin-left: 10px;
+    }
+    p.card__text {
+        font-size: 10px;
+    }
+    
+   div.line {
+       margin-right: 10px;
+       margin-left: -20px;
+   }
+   button.card__btn {
+        padding: 10px;
+        font-size: 13px;
+   }
+   p.card__price {
+       font-size: 17px;
+   }
+   input.footer__email, input.footer__btn {
+    padding:  15px 5px;
+    font-size: 10px;
+   }
+   p#message {
+       font-size: 10px;
+   }
+   img.pageup__img {
+       max-width: 40px;
+       max-height: 40px;
+   }
+   p.footer__subtitle {
+       width: 150px;
+   }
+}
+@media screen and (max-width: 575px) {
+    .wrap {
+        width: 100%;
+        padding: 0 30px;
+    }
+    img.header__logo {
+        width: 30px;
+        height: 20px;
+    }
+    a.header-list__link, a.header__telephone {
+        font-size: 10px;
+        margin-bottom: 10px;
+        span {
+            font-size: 10px;
+        }
+    }
+    ul.header-list__item {
+        width: 40px;
+    }
+    div.header {
+        padding: 10px 0;
+    }
+    p.footer__title, p.header__text, p.footer__subtitle {
+        font-size: 12px;
+    }
+    p.header__text {
+        margin-top: 10px;
+    }
+    .main p.sort__text {
+        font-size: 10px;
+    }
+    div.sort {
+        max-width: 250px;
+    }
+    .sort__arrow {
+        img {
+            width: 10px;
+            height: 10px;
+        }
+    }
+    div.gallery, div.results-container {
+        justify-content: center;
+    }
+    div.card {
+        max-width: 240px;
+    }
+    img.card__img__cat {
+        width: 240px;
+        height: 150px;
+    }
+    button.card__img__like {
+        margin-left: 170px;
+    }
+    button.show__btn {
+        padding: 15px 20px;
+        font-size: 12px;
+     } 
+    div.footer {
+        padding: 15px 10px;
+    }
+    p.modal__text {
+        font-size: 12px;
+    }
+    div.modal {
+        left: 20%;
+        padding: 10px;
+    }
+    input.footer__email, input.footer__btn {
+        padding:  10px 10px;
+        font-size: 10px;
+        width: 100px;
+       }
+    input.footer__btn {
+        margin-bottom: 10px;
+   }
+   div.footer__checkbox {
+       display: none;
+   }
+   div.footer__text {
+       margin-top: 15px;
+   }
+   div.footer__colum {
+       text-align: right;
+       width: 100px;
+   }
+}
